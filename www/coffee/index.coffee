@@ -27,7 +27,7 @@ window.registerServer = (serverAddress) ->
 	serverAddress ?= $('#serverAddress').val().trim().toLowerCase()
 
 	if serverAddress.length is 0
-		serverAddress = 'https://demo.rocket.chat'
+		serverAddress = 'http://140.112.124.238:3001'
 
 	if not /(^https?:\/\/)|(\.)|(^localhost(:\d+)?$)/.test serverAddress
 		serverAddress = 'https://' + serverAddress + '.rocket.chat'
@@ -216,6 +216,8 @@ document.addEventListener "deviceready", ->
 		setTimeout ->
 			registerServer()
 		, 100
+
+	#$('form').trigger('submit')	#auto connect to serve
 
 	$('.server-list-info').on 'click', (e) ->
 		toggleServerList()
