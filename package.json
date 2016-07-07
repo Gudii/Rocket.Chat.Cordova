@@ -1,7 +1,7 @@
 {
-  "name": "rocket.chat.cordova",
+  "name": "hConsult.cordova",
   "version": "0.0.1",
-  "description": "Rocket.Chat mobile applications",
+  "description": "hConsult mobile applications",
   "main": "index.js",
   "dependencies": {
     "async": "^1.5.2",

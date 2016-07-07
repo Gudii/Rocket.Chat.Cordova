@@ -217,7 +217,7 @@ document.addEventListener "deviceready", ->
 			registerServer()
 		, 100
 
-	#$('form').trigger('submit')	#auto connect to serve
+	$('form').trigger('submit')	#auto connect to serve
 
 	$('.server-list-info').on 'click', (e) ->
 		toggleServerList()
