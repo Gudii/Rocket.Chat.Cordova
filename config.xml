@@ -1,10 +1,10 @@
 <?xml version='1.0' encoding='utf-8'?>
-<widget android-versionCode="236" id="com.konecty.hConsult" ios-CFBundleVersion="4" version="2.3.2" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
+<widget android-versionCode="236" id="com.mcn.hConsult" ios-CFBundleVersion="1" version="1.0.1" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
     <name>hConsult</name>
     <description>
         hConsult mobile application
     </description>
-    <author email="gudi19921129@gmail.com">
+    <author email="support@mcn" href="gudi19921129@gmail.com">
         hConsult
     </author>
     <content src="index.html" />
@@ -106,7 +106,7 @@
     <plugin name="ionic-plugin-keyboard" spec="2.2.0" />
     <plugin name="cordova-plugin-statusbar" spec="2.1.2" />
     <plugin name="cordova-plugin-facebook4" spec="1.7.0">
-        <variable name="APP_ID" value="835103589938459" />
+        <variable name="APP_ID" value="com.mcn.hConsult" />
         <variable name="APP_NAME" value="hConsult" />
     </plugin>
     <plugin name="cordova-plugin-rocket-chat" spec="https://github.com/RocketChat/cordova-plugin-rocket-chat" />
