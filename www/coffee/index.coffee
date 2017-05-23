@@ -37,7 +37,7 @@ window.registerServer = (serverAddress) ->
 	serverAddress = serverAddress.replace(/\/$/, '')
 
 	if serverAddress.length is 0
-		serverAddress = 'http://140.112.124.238:3001'
+		serverAddress = 'http://mefeu.csie.ntu.edu.tw:3001'
 
 	if not /(^https?:\/\/)|(\.)|(^localhost(:\d+)?$)/.test serverAddress
 		serverAddress = 'https://' + serverAddress + '.rocket.chat'
